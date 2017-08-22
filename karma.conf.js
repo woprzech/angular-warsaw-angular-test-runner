@@ -11,10 +11,7 @@ module.exports = function (config) {
             '../node_modules/angular-test-runner/angular-test-runner.js',
             '../node_modules/sinon/lib/sinon.js',
             'bower_components/lodash/lodash.js',
-            // '../node_modules/babel-polyfill/dist/polyfill.js',
-            'components/**/*.js',
-            'view*/**/*.js',
-            'my-component/**/*.js'
+            'app/autosaving-notes/**/*.js'
         ],
 
         autoWatch: true,
